@@ -1,5 +1,7 @@
 # Russian Roulette (CLI Game)
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 A terminal-based Python implementation of Russian Roulette. The game simulates a six-chamber revolver, complete with an animated cylinder spin and a permanent “death state.” Once the player dies, a hidden death marker file is written to the system’s configuration directory, preventing further gameplay unless manually deleted.
 
 ---
