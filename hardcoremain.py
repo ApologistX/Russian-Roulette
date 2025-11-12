@@ -337,7 +337,7 @@ def play_round():
 def play_round_hardcore():
     """Play one round with hardcore revival system"""
     chamber = random.randint(1, 6)
-    
+    print("By playing you assume all liability for damages.")
     print("\n 🔥Russian Roulette - HARDCORE MODE🔥")
     print("=" * 40)
     print("System File Sacrifice: Available" if hardcore_lives.has_lives() else "No system files available")
